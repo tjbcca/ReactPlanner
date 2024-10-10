@@ -46,6 +46,7 @@ p {
   align-self: center;
   width: 70%;
   resize: none;
+  font-size: 16pt;
 }
 .buttonSub {
   position: fixed;
