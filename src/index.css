@@ -1,13 +1,63 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+h1 {
+  margin: auto;
+  text-align: center;
+}
+ul {
+  display: flexbox;
+}
+p {
+  text-align: center;
+}
+.calendar {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  flex-wrap: wrap;
+  margin: 2.5%;
+}
+.dateBox {
+  height: 10em;
+  width: 12em;
+  text-align: start;
+}
+.cBox {
+  flex: 1 0 20%;
+  box-sizing: border-box;
+  padding: 10px;
+  resize: none;
+}
+.tripTitle {
+  display: flex;
+  margin: auto;
+  text-align: center;
+  align-self: center;
+  width: 70%;
+  resize: none;
+}
+.buttonSub {
+  position: fixed;
+  left: 39.5%;
+  top: 95%;
+  width: 10em;
+  height: 2em;
+}
+.buttonAdd {
+  position: fixed;
+  right: 39.5%;
+  top: 95%;
+  width: 10em;
+  height: 2em;
 }
