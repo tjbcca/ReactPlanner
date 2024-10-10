@@ -31,34 +31,71 @@ p {
 .dateBox {
   height: 10em;
   width: 12em;
-  text-align: start;
+  text-align: center;
+  border-radius: 10px;
+  background-color: rgb(255, 255, 182);
+  outline: none;
 }
 .cBox {
   flex: 1 0 20%;
   box-sizing: border-box;
   padding: 10px;
   resize: none;
+  background-color: rgb(255, 255, 106);
+  border-radius: 10px;
+  margin-top: 5%;
+  margin-bottom: 10%;
 }
 .tripTitle {
   display: flex;
   margin: auto;
   text-align: center;
   align-self: center;
-  width: 70%;
+  width: 50%;
+  padding: 1%;
   resize: none;
   font-size: 16pt;
+  border: none;
+  border-radius: 15px;
+  outline: none;
+  background-color: rgb(151, 151, 255);
 }
 .buttonSub {
   position: fixed;
   left: 39.5%;
-  top: 95%;
-  width: 10em;
-  height: 2em;
+  top: 93%;
+  width: 8%;
+  height: 7%;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  color: yellow;
+  background-color: rgb(113, 113, 254);
+  font-size: 20pt;
+}
+.buttonSub:hover {
+  transition: all 0.2s linear;
+  background-color: rgb(151, 151, 255);
 }
 .buttonAdd {
   position: fixed;
   right: 39.5%;
-  top: 95%;
-  width: 10em;
-  height: 2em;
+  top: 93%;
+  width: 8%;
+  height: 7%;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  color: yellow;
+  background-color: rgb(113, 113, 254);
+  font-size: 20pt;
+}
+.buttonAdd:hover {
+  transition: all 0.2s linear;
+  background-color: rgb(151, 151, 255);
+}
+.header {
+  padding: 2%;
+  background-color: rgb(113, 113, 254);
+  box-shadow: 5px 5px 5px 15px rgb(113, 113, 254);
 }

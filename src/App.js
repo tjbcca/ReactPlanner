@@ -47,8 +47,11 @@ const App = () => {
 
   return (
     <div className='primary'>
-      <h1>Schedule Planner</h1><br></br>
-	  <input type='text' placeholder='Trip Name' className='tripTitle'/>
+    <div className="header">
+        <h1 className="title">Schedule Planner</h1>
+        <br></br>
+        <input type="text" placeholder="Trip Name" className="tripTitle" />
+      </div>
 	  <p><button className='buttonSub'onClick={removeTextBox}>-</button><button className='buttonAdd'onClick={addTextBox}>+</button></p>
       <ul className='calendar'>
         {textBoxes.map((textBox) => (
