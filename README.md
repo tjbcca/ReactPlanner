@@ -10,7 +10,7 @@
 
 |                                    COLOR PALETTE                                    |                                               DEMO                                               |
 | :---------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------: |
-| <img style="width: 50%; height: 10%" src="prospectPalette.jpg" alt="Color Palette"> | <video width = 100% controls><source  src="planner-demo.mkv" type="video/mkv">DEMO Video</video> |
+| <img style="width: 50%; height: 10%" src="prospectPalette.jpg" alt="Color Palette"> | <video width = 100% controls><source  src="planner-demo.mkv" type="video/mp4">DEMO Video</video> |
 
 </div>
 
