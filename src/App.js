@@ -48,7 +48,7 @@ const App = () => {
   return (
     <div className='primary'>
     <div className="header">
-        <h1 className="title">Schedule Planner</h1>
+        <h1 className="title">Prospect Schedule Planner</h1>
         <br></br>
         <input type="text" placeholder="Trip Name" className="tripTitle" />
       </div>
