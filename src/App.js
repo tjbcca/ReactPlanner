@@ -50,7 +50,7 @@ const App = () => {
     <div className="header">
         <h1 className="title">Prospect Schedule Planner</h1>
         <br></br>
-        <input type="text" placeholder="Trip Name" className="tripTitle" />
+        <input type="text" placeholder="Schedule Name" className="tripTitle" />
       </div>
 	  <p><button className='buttonSub'onClick={removeTextBox}>-</button><button className='buttonAdd'onClick={addTextBox}>+</button></p>
       <ul className='calendar'>
